@@ -1,0 +1,20 @@
+AllCops:
+  Include:
+    - '**/Rakefile'
+    - '**/config.ru'
+  Exclude:
+    - 'Guardfile'
+    - 'db/**/*'
+    - 'config/**/*'
+    - 'test/**/*'
+    - 'bin/**'
+    - 'app/mailers/*'
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyMethod:
+  Enabled: false
+
+Bundler/OrderedGems:
+  Enabled: false
